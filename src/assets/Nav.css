@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --primery-white:#ffffff;
+    --primery-orange:#f9ab00;
+    --primery-grey:#ccd1d9;
+    --primery-dark-grey:#666666;
+    --primery-light-grey:#f4f4f4;
+    --primery-dark:rgb(52, 59, 68);
+    --primery-red: #ef4035;
+    --primery-hover-red: #f33501;
+    --primery-blak:#000000;
+    --primery-tranceparent-blak:rgba(0, 0, 0, 0.7);
+    --primery-success:#62ff19;
+}
+body{
+    font-family: "Roboto Condesed", sans-serif ! important;
+    
+}
+nav{
+    z-index: 2;
+    background: var(--primery-dark )!important;
+}
+.logo{
+    width: 2.8125rem;
+}
+nav a .nav-link{
+    /* font-weight: 500; */
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+
+
+}
+nav ul li{
+    text-transform: uppercase;
+    /* to have all on capitalle letter */
+}
+.navbar-nav > li > a {
+    margin-right:0.75rem ;
+    margin-left: 0.75rem;
+    color: var(--primery-white)! important;
+    border-top:0.1875rem solid var(--primery-dark);
+    
+    
+}
+.navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+    color: var(--primery-white)!important;
+
+}
+
+/*  when click on link aparetre coler orange  */
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus{
+    border-top:0.1875rem solid var(--primery-orange);
+}
+.navbar-nav > li > a:hover{
+    border-top:0.1875rem solid var(--primery-orange);
+
+
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 
-function home () {
+function home (props) {
+  console.log(props);
   return (
       <div>
           home is there
