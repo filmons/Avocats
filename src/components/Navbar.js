@@ -2,6 +2,8 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../assets/Nav.css'
 import {Link} from"react-scroll";
+
+import ".."
 // import fontAwsome
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
