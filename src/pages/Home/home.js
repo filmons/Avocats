@@ -11,8 +11,8 @@ function home() {
         <section  className="glass">
             <div className="form-container">
                 <div className="form-links">
-                    <a href="#">Inscrivez-vous</a>
-                    <a className="active" href="#">Connectez-vous</a>
+                    <a href="/signup" className="active">Inscrivez-vous</a>
+                    <a  href="/login" className="active">Connectez-vous</a>
                 </div>
                  <form name="form1" >
                      <label for="email">Email</label>

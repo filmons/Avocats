@@ -1,6 +1,7 @@
 import React from 'react'
-import './login.css';
-export const Login = () => {
+import './signup.css';
+
+export const Signup = () => {
     return (
         <>
         <div className="main">
@@ -16,6 +17,10 @@ export const Login = () => {
                          <label for="email">Email</label>
                          <input type="text" name="email-input" id="email" required />
                         
+                         <label for="password">Password  </label>
+                         <input type="password" name="password-input" id="password" required />
+                         <label for="password">Password  </label>
+                         <input type="password" name="password-input" id="password" required />
                          <label for="password">Password  </label>
                          <input type="password" name="password-input" id="password" required />
                         
