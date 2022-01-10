@@ -70,7 +70,7 @@
     rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.5)
   );
-  width: 50%;
+  width: 100%;
   padding: 1% 0;
   text-align: center;
   font-size: 1.5rem;
@@ -149,5 +149,10 @@
   color: #fff;
   background-color: #f61717;
   background-image: none;
+  }
+
+  a.rederigesignup{
+    text-decoration: none;
+    color: black;
   }
   

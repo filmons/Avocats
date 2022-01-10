@@ -10,8 +10,8 @@ export const Signup = () => {
             <section  className="glass">
                 <div className="form-container">
                     <div className="form-links">
-                        <a href="#">Inscrivez-vous</a>
-                        <a className="active" href="#">Connectez-vous</a>
+                        <a className="active" href="#">Inscrivez-vous</a>
+                       
                     </div>
                      <form name="form1" >
                          <label for="email">Email</label>

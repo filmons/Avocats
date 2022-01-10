@@ -9,7 +9,7 @@ export const Login = () => {
             <section  className="glass">
                 <div className="form-container">
                     <div className="form-links">
-                        <a href="#">Inscrivez-vous</a>
+                       
                         <a className="active" href="#">Connectez-vous</a>
                     </div>
                      <form name="form1" >
@@ -21,6 +21,7 @@ export const Login = () => {
                         
                          <input type="submit" value="Sign up"/>
                      </form>
+                        <a className="rederigesignup" href="/signup"> Si vous n'avez pas un compt Inscrivez-vous en clickant ICI</a>
                  </div>
          
                  <div className="errors-container">
